@@ -1,0 +1,17 @@
+@font-face {
+    font-family: myHeaderFont;
+    src: url(font.ttf);
+}
+
+@font-face {
+    font-family: myNotesFont;
+    src: url(notesFont.ttf);
+}
+
+#setFont{
+    font-family: myHeaderFont;
+}
+
+#setNotesFont{
+    font-family: myNotesFont;
+}
