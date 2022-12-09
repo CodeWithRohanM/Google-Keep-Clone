@@ -25,18 +25,18 @@ export default function App() {
   }
   return <>
 
-<div className="bg-gradient-to-b from-gray-900 via-purple-900 to-violet-600 h-screen">
+    <div className="bg-gradient-to-b from-gray-900 via-purple-900 to-violet-600 h-fit w-full">
 
-    <Header />
+      <Header />
 
       <TakeNote displayToSavedNotes={displayToSavedNotes} />
 
-      <div className="grid grid-cols-4 gap-x-6 p-8 gap-y-12">
+      <div className="grid grid-cols-3 gap-x-6 p-8 gap-y-12">
 
         {
           saveData.map((event, index) => {
 
-            return <SavedNote key={index} id={index} getTitle={event.title} getNote={event.note} deleteSelectedItem={deleteSelectedItem} getImage="https://picsum.photos/200/300" />
+            return <SavedNote key={index} id={index} getTitle={event.title} getNote={event.note} deleteSelectedItem={deleteSelectedItem} getImage="https://picsum.photos/200" />
 
           })
         }

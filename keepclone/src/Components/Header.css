@@ -1,11 +1,11 @@
 @font-face {
     font-family: myHeaderFont;
-    src: url(font.ttf);
+    src: url("/Users/rohanmote/Desktop/Thapa Projects/Mini Projects/Google Keep Clone/keepclone/src/Components/Fonts/font.ttf");
 }
 
 @font-face {
     font-family: myNotesFont;
-    src: url(notesFont.ttf);
+    src: url("/Users/rohanmote/Desktop/Thapa Projects/Mini Projects/Google Keep Clone/keepclone/src/Components/Fonts/notesFont.ttf");
 }
 
 #setFont{
