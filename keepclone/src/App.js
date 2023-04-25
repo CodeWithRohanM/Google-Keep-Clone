@@ -19,15 +19,20 @@ export default function App() {
   const deleteSelectedItem = (id) => {
     setSaveData((prevData) => {
       return prevData.filter((event, index) => {
+        console.log("Index = "+index);
         return id !== index;
+
       })
     })
+    console.log("Id = "+id)
   }
   return <>
+
 
     <div className="bg-gradient-to-b from-gray-900 via-purple-900 to-violet-600 h-fit w-full">
 
       <Header />
+
 
       <TakeNote displayToSavedNotes={displayToSavedNotes} />
 

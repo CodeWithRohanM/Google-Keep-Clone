@@ -10,7 +10,7 @@ export default function Header()
 
         <div id="innerContainer" className="mx-8 h-auto flex flex-row gap-4 items-center">
             <img src={Note} className = "w-14 h-14"/>
-            <h1 id = "setFont" className="text-4xl">Shark Notes</h1>
+            <h1 id = "setFont" className="text-4xl">QuickNotes</h1>
         </div>
 
     </div>
